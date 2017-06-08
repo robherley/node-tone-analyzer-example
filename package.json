@@ -1,0 +1,16 @@
+{
+  "name": "node-analyzer-example",
+  "version": "1.0.0",
+  "description": "Simple Emotion Analyzer of a twitter tweet using Watson's API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Rob Herley",
+  "license": "MIT",
+  "dependencies": {
+    "html-entities": "^1.2.1",
+    "twit": "^2.2.5",
+    "watson-developer-cloud": "^2.32.1"
+  }
+}
