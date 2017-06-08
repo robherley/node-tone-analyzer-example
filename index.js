@@ -22,7 +22,7 @@ const twit = new Twit({
 if(process.argv.length != 3){
   console.log("Usage: npm start <twitter-handle>");
 } else {
-  twit.get('/statuses/user_timeline', { screen_name: process.argv[3], count: 1})
+  twit.get('/statuses/user_timeline', { screen_name: process.argv[2], count: 1})
   	.catch(function (err) {
       		console.log('Error Trace:', err.stack)
     	})
