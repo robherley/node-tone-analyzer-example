@@ -4,13 +4,17 @@
   "description": "Simple Emotion Analyzer of a twitter tweet using Watson's API",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Rob Herley",
   "license": "MIT",
   "dependencies": {
     "html-entities": "^1.2.1",
     "twit": "^2.2.5",
-    "watson-developer-cloud": "^2.32.1"
-  }
+    "watson-developer-cloud": "^2.32.1",
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }
